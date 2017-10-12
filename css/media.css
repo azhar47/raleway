@@ -1,0 +1,137 @@
+/*
+    *PSD to HTML Responsive Conversion Using BootStrap*
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+/*--Extra-Small Device---*/
+@media(max-width:420px){
+    .header-text h1{
+        font-size:30px;
+        margin: 0 0 20px 0;
+    }
+    .header-text p{
+        font-size: 14px;
+    }
+    .header-text a.btn.btn-custom {
+        padding: 10px 35px;
+    }
+}
+@media (max-width:630px){
+    .feature-title {
+        padding:25px 0px;
+        text-align: center;
+    }
+    #slider{
+        min-height:400px;
+        padding:15px 0px;
+        text-align: center;
+        line-height: 1;
+    }
+    .carousel{
+        min-height:400px;
+    }
+    .thumbnail {
+        padding:10px 0 15px;
+    }
+    .slider-caption h2{
+        font-size: 24px;
+        margin-bottom: 0!important;
+    }
+    .slider-caption h4{
+        font-size:16px;
+        margin-bottom: 0!important;
+    }
+    .slider-caption p{
+        font-size: 12px;
+        margin-top: 0;
+        line-height: 1;
+    }
+    .blog-img img{
+        width: 100%;
+    }
+    .blog-post{
+        max-width: 100%!important;
+        margin-bottom:30px;
+    }
+
+    #top-footer{
+        text-align: center!important;
+    }
+    #top-footer input[type="email"] {
+        margin: 0 auto;
+        width:70%;
+        padding:18px 20px;
+        text-align: center;
+        margin-top:5px;
+    }
+    #top-footer input[type="submit"] {
+        margin: 0 auto;
+        width:70%;
+    }
+    #bottom-footer{
+        text-align: center;
+    }
+    #bottom-footer .form-group{
+        margin-top: 35px;
+        margin-bottom:0!important;
+    }
+    #bottom-footer hr {
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+@media (max-width:767px){
+    .breadcrumb > li + li:before {
+        padding: 0 5px;
+        color:transparent;
+        content: "";
+    }
+    #menu {
+        background-color: firebrick;
+        position: relative;
+        z-index: 1;
+
+    }
+    .breadcrumb {
+        padding: 0 0px;
+        margin: 15px 0;
+    }
+    #menu ul li{
+        display: block;
+    }
+    #menu ul a{
+        width: 100%;
+        display: block;
+    }
+    #menu ul li a {
+        padding:0!important;
+    }
+}
+@media (max-width:1010px){
+    #menu ul li a {
+        color: #FFF;
+        padding: 0 16px;
+    }
+    .badge {
+       display: none;
+    }
+   
+}
+@media (min-width:1011px){
+    a.ff{
+        position: relative;
+    }
+    span.dd.badge {
+        position: absolute;
+        top: -8px;
+        right:23px;
+    }
+    .badge {
+        padding: 2px 5px;
+        color: #555;
+        background-color: #FDE201;
+    }
+}
